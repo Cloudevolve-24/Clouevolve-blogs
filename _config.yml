@@ -1,0 +1,13 @@
+title: Ravi Teja's Tech Blog
+
+description: Cloud, AWS, Azure & Cost Optimization
+
+theme: minima
+
+author: Ravi Teja
+ 
+plugins:
+
+  - jekyll-feed
+
+ 
