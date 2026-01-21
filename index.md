@@ -3,7 +3,6 @@ layout: home
 title: Cloudevolve Blogs
 list_title: Latest articles
 ---
-
 <p class="ce-logo-wrap">
   <img
     class="ce-logo"
