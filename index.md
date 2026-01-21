@@ -6,11 +6,11 @@ list_title: Latest articles
 
 ## Cut AWS costs without lock-in
 
-Cloudevolve helps teams reduce AWS compute spend with continuous, automated optimization across Savings Plans and Reserved Instances—without spreadsheets.
+Cloudevolve helps teams reduce AWS compute spend with continuous, automated optimization across Savings Plans and Reserved Instances—without spreadsheet-based commitment management.
 
 <div class="ce-hero-cta">
   <a class="ce-btn ce-btn-primary" href="https://cloudevolve.com">Explore Cloudevolve</a>
-  <a class="ce-btn ce-btn-outline" href="{{ '/feed.xml' | relative_url }}">Subscribe (RSS)</a>
+  <a class="ce-btn ce-btn-outline" href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>
 </div>
 
 <div class="ce-stats">
