@@ -14,3 +14,6 @@ permalink: /:categories/:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
+
+minima:
+  nav_pages: []
