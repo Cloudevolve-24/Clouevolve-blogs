@@ -1,0 +1,50 @@
+---
+---
+
+/* 1) Brand tokens — replace these 3 colors with Cloudevolve palette hex codes */
+:root {
+  --ce-primary: #0B5FFF;   /* replace */
+  --ce-accent:  #00C2A8;   /* replace */
+  --ce-dark:    #0B1220;   /* replace */
+}
+
+/* 2) Import theme */
+@import "minima";
+
+/* 3) Opinionated polish */
+.site-header {
+  border-top: 3px solid var(--ce-primary);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.site-title, .site-title:visited {
+  color: var(--ce-dark);
+  font-weight: 700;
+}
+
+a, a:visited {
+  color: var(--ce-primary);
+}
+
+a:hover {
+  color: var(--ce-accent);
+  text-decoration: none;
+}
+
+.post-title {
+  letter-spacing: -0.02em;
+}
+
+.post-content img {
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(11,18,32,0.12);
+  margin: 18px 0;
+}
+
+/* Optional: highlight callouts */
+.ce-callout {
+  border-left: 4px solid var(--ce-accent);
+  background: rgba(0, 194, 168, 0.08);
+  padding: 12px 14px;
+  border-radius: 10px;
+}
