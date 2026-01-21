@@ -1,14 +1,10 @@
-title: "Cloudevolve Blogs"
-description: "Cloud cost optimization, FinOps & engineering playbooks from Cloudevolve."
+title: Cloudevolve Blogs
+description: Cloud, AWS, Azure & Cost Optimization
 theme: minima
+author: Cloudevolve
 
-# If hosting at https://cloudevolve.com/blogs
-url: "https://cloudevolve.com"
-baseurl: "/blogs"
-
-# Nice-to-have
-show_excerpts: true
-permalink: /:categories/:year/:month/:day/:title/
+url: "https://cloudevolve-24.github.io"
+baseurl: "/Clouevolve-blogs"
 
 plugins:
   - jekyll-feed
