@@ -3,6 +3,14 @@ layout: home
 title: Cloudevolve Blogs
 list_title: Latest articles
 ---
+
+<div class="top-banner-image">
+     <img
+    class="ce-logo"
+    src="{{ '/assets/images/1767330937764.jpg' | relative_url }}"
+    alt="Cloudevolve"
+  />
+</div>
 <p class="ce-logo-wrap">
   <img
     class="ce-logo"
