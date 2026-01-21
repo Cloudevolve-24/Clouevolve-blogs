@@ -1,50 +1,44 @@
 ---
 ---
 
-/* 1) Brand tokens — replace these 3 colors with Cloudevolve palette hex codes */
-:root {
-  --ce-primary: #0B5FFF;   /* replace */
-  --ce-accent:  #00C2A8;   /* replace */
-  --ce-dark:    #0B1220;   /* replace */
-}
-
-/* 2) Import theme */
 @import "minima";
 
-/* 3) Opinionated polish */
-.site-header {
-  border-top: 3px solid var(--ce-primary);
-  border-bottom: 1px solid rgba(0,0,0,.08);
+/* Brand palette (replace later with Cloudevolve exact hex codes) */
+:root{
+  --ce-primary:#0B5FFF;
+  --ce-accent:#00C2A8;
+  --ce-dark:#0B1220;
+  --ce-muted:#5b667a;
+  --ce-bg:#f7f9fc;
 }
 
-.site-title, .site-title:visited {
-  color: var(--ce-dark);
-  font-weight: 700;
+.ce-hero-cta { margin: 14px 0 8px; display:flex; gap:10px; flex-wrap:wrap; }
+
+.ce-btn{
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:10px;
+  font-weight:600;
+  text-decoration:none !important;
 }
 
-a, a:visited {
-  color: var(--ce-primary);
+.ce-btn-primary{ background:var(--ce-primary); color:#fff !important; }
+.ce-btn-outline{ border:1px solid rgba(11,95,255,.35); color:var(--ce-primary) !important; background:#fff; }
+
+.ce-stats{
+  margin-top:18px;
+  padding:16px;
+  background:var(--ce-bg);
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:14px;
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:12px;
 }
 
-a:hover {
-  color: var(--ce-accent);
-  text-decoration: none;
-}
+.ce-stat-num{ font-weight:800; color:var(--ce-dark); }
+.ce-stat-label{ color:var(--ce-muted); font-size: 0.95rem; }
 
-.post-title {
-  letter-spacing: -0.02em;
-}
-
-.post-content img {
-  border-radius: 10px;
-  box-shadow: 0 8px 24px rgba(11,18,32,0.12);
-  margin: 18px 0;
-}
-
-/* Optional: highlight callouts */
-.ce-callout {
-  border-left: 4px solid var(--ce-accent);
-  background: rgba(0, 194, 168, 0.08);
-  padding: 12px 14px;
-  border-radius: 10px;
+@media (max-width: 700px){
+  .ce-stats{ grid-template-columns: 1fr; }
 }
