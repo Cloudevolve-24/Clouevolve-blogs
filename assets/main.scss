@@ -3,6 +3,11 @@
 
 @import "minima";
 
+/* Hide the big homepage title (keeps the header site title) */
+.home .page-heading {
+  display: none;
+}
+
 /* Cloudevolve promo styling */
 :root{
   --ce-primary:#0B5FFF;
@@ -12,6 +17,11 @@
   --ce-bg:#f7f9fc;
 }
 
+/* Logo on homepage */
+.ce-logo-wrap { margin: 6px 0 18px; text-align: left; }
+.ce-logo { height: 56px; width: auto; display: inline-block; }
+
+/* Hero buttons */
 .ce-hero-cta { margin: 14px 0 8px; display:flex; gap:10px; flex-wrap:wrap; }
 
 .ce-btn{
@@ -25,6 +35,7 @@
 .ce-btn-primary{ background:var(--ce-primary); color:#fff !important; }
 .ce-btn-outline{ border:1px solid rgba(11,95,255,.35); color:var(--ce-primary) !important; background:#fff; }
 
+/* Feature cards */
 .ce-stats{
   margin-top:18px;
   padding:16px;
@@ -41,4 +52,5 @@
 
 @media (max-width: 700px){
   .ce-stats{ grid-template-columns: 1fr; }
+  .ce-logo { height: 44px; }
 }
