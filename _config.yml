@@ -1,10 +1,14 @@
-title: Ravi Teja's Tech Blog
-description: Cloud, AWS, Azure & Cost Optimization
+title: "Cloudevolve Blogs"
+description: "Cloud cost optimization, FinOps & engineering playbooks from Cloudevolve."
 theme: minima
-author: Ravi Teja
 
-url: "https://cloudevolve-24.github.io"
-baseurl: "/Clouevolve-blogs"
+# If hosting at https://cloudevolve.com/blogs
+url: "https://cloudevolve.com"
+baseurl: "/blogs"
+
+# Nice-to-have
+show_excerpts: true
+permalink: /:categories/:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
