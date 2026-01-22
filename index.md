@@ -3,11 +3,14 @@ layout: home
 title: Cloudevolve Blogs
 list_title: Latest articles
 ---
- <img
+<p class="ce-logo-wrap">
+  <img
     class="ce-logo logo-img"
     src="{{ '/assets/images/ce-logo-full.jpg' | relative_url }}"
     alt="Cloudevolve"
   />
+</p>
+
 
 <div class="top-banner-image">
      <img
@@ -16,9 +19,7 @@ list_title: Latest articles
     alt="Cloudevolve"
   />
 </div>
-<p class="ce-logo-wrap">
- 
-</p>
+
 
 ## Cut AWS costs without lock-in
 
