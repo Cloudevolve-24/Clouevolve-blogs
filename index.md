@@ -4,7 +4,7 @@ title: Cloudevolve Blogs
 list_title: Latest articles
 ---
  <img
-    class="ce-logo"
+    class="ce-logo logo-img"
     src="{{ '/assets/images/ce-logo-full.jpg' | relative_url }}"
     alt="Cloudevolve"
   />
