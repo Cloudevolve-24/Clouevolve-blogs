@@ -82,3 +82,35 @@ img.ce-logo.logo-img {
 p.ce-logo-wrap {
     display: none;
 }
+
+
+
+/* Show main logo */
+p.ce-logo-wrap {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img.ce-logo.logo-img {
+    display: inline-block;
+    width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Hero image styling */
+.top-banner-image {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.top-banner-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
