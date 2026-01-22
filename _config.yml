@@ -4,7 +4,7 @@ theme: minima
 
 url: "https://cloudevolve-24.github.io"
 baseurl: "/Clouevolve-blogs"
-
+logo: logo: /assets/images/ce-logo-full.jpg
 author:
   name: "Cloudevolve"
   email: "hello@cloudevolve.com"
