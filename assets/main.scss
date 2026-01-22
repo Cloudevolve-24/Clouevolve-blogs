@@ -1,56 +1,56 @@
-// ---
-// ---
+---
+---
 
-// @import "minima";
+@import "minima";
 
-// /* Hide the big homepage title (keeps the header site title) */
-// .home .page-heading {
-//   display: none;
-// }
+/* Hide the big homepage title (keeps the header site title) */
+.home .page-heading {
+  display: none;
+}
 
-// /* Cloudevolve promo styling */
-// :root{
-//   --ce-primary:#0B5FFF;
-//   --ce-accent:#00C2A8;
-//   --ce-dark:#0B1220;
-//   --ce-muted:#5b667a;
-//   --ce-bg:#f7f9fc;
-// }
+/* Cloudevolve promo styling */
+:root{
+  --ce-primary:#0B5FFF;
+  --ce-accent:#00C2A8;
+  --ce-dark:#0B1220;
+  --ce-muted:#5b667a;
+  --ce-bg:#f7f9fc;
+}
 
-// /* Logo on homepage */
-// .ce-logo-wrap { margin: 6px 0 18px; text-align: left; }
-// .ce-logo { height: 56px; width: auto; display: inline-block; }
+/* Logo on homepage */
+.ce-logo-wrap { margin: 6px 0 18px; text-align: left; }
+.ce-logo { height: 56px; width: auto; display: inline-block; }
 
-// /* Hero buttons */
-// .ce-hero-cta { margin: 14px 0 8px; display:flex; gap:10px; flex-wrap:wrap; }
+/* Hero buttons */
+.ce-hero-cta { margin: 14px 0 8px; display:flex; gap:10px; flex-wrap:wrap; }
 
-// .ce-btn{
-//   display:inline-block;
-//   padding:10px 14px;
-//   border-radius:10px;
-//   font-weight:700;
-//   text-decoration:none !important;
-// }
+.ce-btn{
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:10px;
+  font-weight:700;
+  text-decoration:none !important;
+}
 
-// .ce-btn-primary{ background:var(--ce-primary); color:#fff !important; }
-// .ce-btn-outline{ border:1px solid rgba(11,95,255,.35); color:var(--ce-primary) !important; background:#fff; }
+.ce-btn-primary{ background:var(--ce-primary); color:#fff !important; }
+.ce-btn-outline{ border:1px solid rgba(11,95,255,.35); color:var(--ce-primary) !important; background:#fff; }
 
-// /* Feature cards */
-// .ce-stats{
-//   margin-top:18px;
-//   padding:16px;
-//   background:var(--ce-bg);
-//   border:1px solid rgba(0,0,0,.06);
-//   border-radius:14px;
-//   display:grid;
-//   grid-template-columns: repeat(3, minmax(0, 1fr));
-//   gap:12px;
-// }
+/* Feature cards */
+.ce-stats{
+  margin-top:18px;
+  padding:16px;
+  background:var(--ce-bg);
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:14px;
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:12px;
+}
 
-// .ce-stat-num{ font-weight:800; color:var(--ce-dark); }
-// .ce-stat-label{ color:var(--ce-muted); font-size: 0.95rem; }
+.ce-stat-num{ font-weight:800; color:var(--ce-dark); }
+.ce-stat-label{ color:var(--ce-muted); font-size: 0.95rem; }
 
-// @media (max-width: 700px){
-//   .ce-stats{ grid-template-columns: 1fr; }
-//   .ce-logo { height: 44px; }
-// }
+@media (max-width: 700px){
+  .ce-stats{ grid-template-columns: 1fr; }
+  .ce-logo { height: 44px; }
+}
