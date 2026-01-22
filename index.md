@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Cloudevolve blogs
 list_title: Latest articles
 ---
 <p class="ce-logo-wrap">
